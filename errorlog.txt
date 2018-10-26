@@ -1,0 +1,15 @@
+[2018-10-25 15:30:34] Error 
+failed to send message to exchange: Server connection error: 403, message: ACCESS_REFUSED - Login was refused using authentication mechanism PLAIN. For details see the broker logfile. - Potential login failure.
+
+ 
+
+[2018-10-25 15:30:34] Error 
+failed to send message to exchange: Server connection error: 403, message: ACCESS_REFUSED - Login was refused using authentication mechanism PLAIN. For details see the broker logfile. - Potential login failure.
+
+ 
+
+[2018-10-25 15:30:38] Error 
+failed to send message to exchange: Server connection error: 403, message: ACCESS_REFUSED - Login was refused using authentication mechanism PLAIN. For details see the broker logfile. - Potential login failure.
+
+ 
+
