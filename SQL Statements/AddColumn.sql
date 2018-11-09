@@ -1,0 +1,2 @@
+ALTER TABLE meals.meals
+ADD COLUMN idMeal VARCHAR(255) FIRST;
