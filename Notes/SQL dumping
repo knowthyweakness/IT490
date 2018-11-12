@@ -1,0 +1,32 @@
+sudo apt-get install mysql-server	installs mysql server
+sudo apt-get install -y mysql-server	installs while saying y to all questions
+cd /etc/mysql/mysql.conf.d
+vim mysqld.cnf
+	bind-address = server of master
+	server-id = 1
+	uncomment log_bin
+sudo service mysql restart
+create user 'repl'@'%' identified by 'slavepassword';
+grant replication slave on *.* to 'repl'@'%'
+
+create database
+create table
+insert data into the table
+
+mysqldump -u root -p toor1234 --all-databases --master-data > masterdump.sql
+grep CHANGE *sql | head -1
+scp masterdump.sql ipOfRecipient
+
+
+
+For Recipient Repeat the steps until after restarting mysql
+Enter sql shell
+CHANGE MASTER TO
+MASTER_HOST='HOSTIP',
+MASTER_USER='REPL',
+MASTER_PASSWORD='slavepassword';
+
+mysql -u root < masterdump.sql
+open sql shell
+start slave;
+show slave status;
