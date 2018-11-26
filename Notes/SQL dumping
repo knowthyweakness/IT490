@@ -13,7 +13,7 @@ create database
 create table
 insert data into the table
 
-mysqldump -u root -p toor1234 --all-databases --master-data > masterdump.sql
+mysqldump -uroot -ptoor1234 --all-databases --master-data > masterdump3.sql
 grep CHANGE *sql | head -1
 scp masterdump.sql ipOfRecipient
 
