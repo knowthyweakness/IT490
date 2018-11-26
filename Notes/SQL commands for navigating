@@ -1,0 +1,10 @@
+sudo mysql -u root -p gets you into the sql shell
+
+USE databaseName; selects the database
+There is no unuse. just select another db
+
+SHOW DATABASES; lets you see all the current databases
+
+SHOW TABLES; this needs a DB to be selected but it shows all tables in that DB
+
+SELECT * FROM tableName; shows the data in the table. it returns an empty set message if the table is blank
