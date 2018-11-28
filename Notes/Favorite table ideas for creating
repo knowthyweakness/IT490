@@ -1,0 +1,6 @@
+Create a new table for user favorites
+One column connects to the individual user
+one column to say what food it is
+one column is a favorite column
+
+Select * from favorites where favorite is not null;
