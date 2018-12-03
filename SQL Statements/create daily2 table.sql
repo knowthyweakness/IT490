@@ -1,0 +1,1 @@
+create table daily2 (screenname varchar(255), mealName1 varchar(255), mealName2 varchar(255), mealName3 varchar(255), mealName4 varchar(255), mealName5 varchar(255), mealCategory1 varchar(255), mealCategory2 varchar(255), mealCategory3 varchar(255), mealCategory4 varchar(255), mealCategory5 varchar(255));
