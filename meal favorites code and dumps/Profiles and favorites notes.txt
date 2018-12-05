@@ -1,0 +1,14 @@
+once they like it, saves category, save it in sessions
+create table that stores user and 10 columns(category names)
+login and checks likes and pulls random category.
+
+create button that lets you update a value as favorited in the favorite table which will have user, food, and favorited column
+once in the table, let it be able to printed in the profile page where the user is
+print the food and if possible the recipe. could use both testmeals and fave
+use the where clause to help sort through the tables for things like favorited being yes for this user
+
+The profile needs 5 likes and 5 dislikes which can be buttons
+needs a cook book or a list of all the favorites which is just querying where favorite is yes
+daily recommendations is a little tougher because it needs to look at what you liked or favorited and print a randomized food where the category is the same
+
+store the favorite to a table and have it store the data temporarily in a session to be printed in the profile
