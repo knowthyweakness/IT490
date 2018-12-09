@@ -1,0 +1,13 @@
+[Unit]
+Description= Start up ErrorServer on Boot
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Restart=always
+RestartSec=1
+ExecStart=/home/tanvir/git/rabbitmqphp_example/testRabbitMQServer.php
+
+[Install]
+WantedBy=multi-user.target
+
